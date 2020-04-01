@@ -1,0 +1,5 @@
+<ul>
+    {% for employee in all_employees %}
+        <li><a href="/employee/{{ employee.id }}/">{{ employee.employee_name }}</a></li>
+    {% endfor %}
+</ul>
